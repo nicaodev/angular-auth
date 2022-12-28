@@ -10,6 +10,11 @@ import { AuthService } from 'src/app/core/services/auth.service';
 export class SignComponent {
 
 
+  // start servidor fake jwt
+  // npm run start
+  // e-mail: abc@g.c
+  // senha: 123
+
   public formAuth: FormGroup = this.fb.group({
     email: ['', [Validators.required, Validators.email]],
     password: ['', [Validators.required]]
